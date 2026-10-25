@@ -15,12 +15,19 @@ Desktop Drawer 是一个使用 C# 和 WPF 编写的 Windows 桌面侧边抽屉�
 ## 环境要求
 
 - Windows 10 或 Windows 11
-- .NET Framework 4.x 和 WPF 组件
-- 系统自带的 C# 编译器 `csc.exe`
+- .NET Framework 4.x 和 WPF 组件（Windows 通常已经包含）
 
-## 构建并运行
+## 下载并运行
 
-双击 `build.bat`，脚本会调用 `build.ps1` 编译 `src/Drawer.cs`，在项目根目录生成 `Drawer.exe` 并立即启动。
+1. 点击 GitHub 页面上的 **Code → Download ZIP**。
+2. 解压下载的 ZIP 文件。
+3. 打开解压后的文件夹，双击 `Drawer.exe` 即可使用。
+
+如果 Windows 显示安全提示，请先确认文件来自本仓库，再选择“更多信息”与“仍要运行”。
+
+## 从源码重新构建
+
+开发者可以双击 `build.bat`。脚本会调用 `build.ps1` 编译 `src/Drawer.cs`，重新生成 `Drawer.exe` 并启动。
 
 也可以在 PowerShell 中运行：
 
@@ -40,9 +47,10 @@ DesktopDrawer/
 │  └─ README.md
 ├─ build.bat
 ├─ build.ps1
+├─ Drawer.exe
 ├─ README.md
 └─ 使用教程.txt
 ```
 
-`Drawer.exe` 和 `drawer-error.txt` 是本地构建或运行时产生的文件，不包含在仓库中。
+`Drawer.exe` 是供普通用户直接运行的预编译程序；`drawer-error.txt` 是发生错误时生成的本地日志，不包含在仓库中。
 

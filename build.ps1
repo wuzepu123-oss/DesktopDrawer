@@ -42,7 +42,7 @@ Write-Host '正在编译...'
     $source
 if ($LASTEXITCODE -ne 0) {
     Write-Host ''
-    Write-Host '编译失败了。请把上面的红字或错误信息截图发给 Claude。' -ForegroundColor Red
+    Write-Host '编译失败了。请记录上面的红字或错误信息，以便排查问题。' -ForegroundColor Red
     exit 1
 }
 

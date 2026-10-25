@@ -4,12 +4,14 @@ Desktop Drawer 使用教程
 一、准备和启动
 --------------
 1. 本程序适用于 Windows 10 或 Windows 11。
-2. 将整个项目文件夹保存到本地，不要单独移动 src 文件夹或构建脚本。
-3. 双击 build.bat。
-4. 脚本会使用 Windows 自带的 C# 编译器编译 src\Drawer.cs，在项目根目录生成 Drawer.exe，并自动启动。
-5. 以后可以直接双击 Drawer.exe；修改源码后请重新运行 build.bat。
+2. 在 GitHub 页面点击 Code，再点击 Download ZIP。
+3. 下载完成后解压 ZIP 文件。
+4. 打开解压后的文件夹，双击 Drawer.exe 即可启动。
+5. 普通用户不需要打开 src 文件夹，也不需要运行编译脚本。
 
 如果 Windows 显示“Windows 已保护你的电脑”，请先确认文件来自可信来源，再选择“更多信息”与“仍要运行”。
+
+开发者如果修改了 src\Drawer.cs，可以双击 build.bat 重新编译并启动程序。
 
 二、打开和收起抽屉
 ------------------
