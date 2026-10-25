@@ -2,6 +2,8 @@
 
 Desktop Drawer 是一个使用 C# 和 WPF 编写的 Windows 桌面侧边抽屉。它停靠在屏幕左侧，可集中放置常用程序、快捷方式、文件和文件夹，并提供磨砂背景、自动收起、图标排列和开机启动等功能。
 
+当前版本：`v0.9.0 Beta`
+
 ## 主要功能
 
 - 鼠标触碰屏幕左边缘时滑出，离开后自动收起
@@ -9,7 +11,7 @@ Desktop Drawer 是一个使用 C# 和 WPF 编写的 Windows 桌面侧边抽屉�
 - 图标自由排列、框选、Ctrl 多选和整组拖动
 - 调整图标大小、横向/纵向间距和抽屉列数
 - 显示或隐藏 Windows 桌面图标
-- 可选开机自动启动
+- 首次运行默认开启开机自动启动，也可在抽屉设置中关闭
 - 本地保存布局和外观设置，不依赖网络服务
 
 ## 环境要求
@@ -48,9 +50,15 @@ DesktopDrawer/
 ├─ build.bat
 ├─ build.ps1
 ├─ Drawer.exe
+├─ LICENSE
 ├─ README.md
+├─ VERSION
 └─ 使用教程.txt
 ```
 
 `Drawer.exe` 是供普通用户直接运行的预编译程序；`drawer-error.txt` 是发生错误时生成的本地日志，不包含在仓库中。
+
+## 开源许可
+
+本项目使用 [MIT License](LICENSE)。
 

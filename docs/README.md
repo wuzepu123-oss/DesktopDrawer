@@ -6,3 +6,5 @@
 
 程序会将布局和外观设置保存在当前用户的 `%LOCALAPPDATA%\DrawerStage2` 目录。开启“开机自动启动”时，程序会写入当前用户的 Windows `Run` 注册表项，不需要管理员权限。
 
+当前公开测试版本记录在仓库根目录的 `VERSION` 文件中，项目使用 MIT License。
+
