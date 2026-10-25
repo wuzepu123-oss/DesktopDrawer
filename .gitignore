@@ -1,0 +1,16 @@
+# Visual Studio and MSBuild output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Build/debug artifacts generated after checkout
+Drawer.exe
+drawer-error.txt
+*.pdb
+
+# Operating-system metadata
+Thumbs.db
+Desktop.ini
+
